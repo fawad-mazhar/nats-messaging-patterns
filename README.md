@@ -22,6 +22,15 @@ Implementation of the Request-Reply pattern using NATS JetStream.
 - JetStream persistence for reliability
 - Proper timeout handling
 
+### [nats-queue-group](./nats-queue-group)
+Implementation of the Queue Group (Competing Consumers) pattern using NATS JetStream.
+
+**Features:**
+- Multiple consumers in a queue group share the message load
+- Ensures each message is processed by only one consumer in the group
+- Demonstrates horizontal scalability for message processing
+- Configurable group and stream settings
+
 ## Getting Started
 
 Each project contains its own README with detailed instructions, but generally:
@@ -33,7 +42,7 @@ Each project contains its own README with detailed instructions, but generally:
 
 2. Choose a pattern and navigate to its directory:
    ```bash
-   cd nats-pubsub   # or nats-reqrep
+   cd nats-pubsub   # or nats-reqrep or nats-queue-group
    ```
 
 3. Follow the project-specific README for detailed instructions.
