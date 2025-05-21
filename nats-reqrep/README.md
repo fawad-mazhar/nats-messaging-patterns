@@ -78,7 +78,3 @@ To stop the NATS server and clean up:
 make stop-nats
 make clean
 ```
-
-## License
-
-MIT

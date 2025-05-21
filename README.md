@@ -12,8 +12,6 @@ Implementation of the Publish-Subscribe pattern using NATS JetStream.
 - Subscriber with concurrent message processing
 - Real-time monitoring capabilities
 - Configurable stream settings
-- Docker support
-- Comprehensive documentation
 
 ### [nats-reqrep](./nats-reqrep)
 Implementation of the Request-Reply pattern using NATS JetStream.
@@ -23,8 +21,6 @@ Implementation of the Request-Reply pattern using NATS JetStream.
 - Client that sends requests and waits for responses
 - JetStream persistence for reliability
 - Proper timeout handling
-- Docker support
-- Clean project structure
 
 ## Getting Started
 
@@ -41,15 +37,6 @@ Each project contains its own README with detailed instructions, but generally:
    ```
 
 3. Follow the project-specific README for detailed instructions.
-
-## Common Features Across Projects
-
-- JetStream for message persistence
-- Docker support for NATS server
-- Comprehensive Makefiles
-- Environment-based configuration
-- Graceful shutdown handling
-- Clean code organization
 
 ## License
 
