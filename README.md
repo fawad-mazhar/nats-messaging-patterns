@@ -1,0 +1,56 @@
+# NATS Messaging Patterns
+
+This repository contains implementations of different messaging patterns using NATS and JetStream. Each subdirectory is a complete, self-contained project demonstrating a specific messaging pattern.
+
+## Projects
+
+### [nats-pubsub](./nats-pubsub)
+Implementation of the Publish-Subscribe pattern using NATS JetStream.
+
+**Features:**
+- Publisher for sending messages to a NATS stream
+- Subscriber with concurrent message processing
+- Real-time monitoring capabilities
+- Configurable stream settings
+- Docker support
+- Comprehensive documentation
+
+### [nats-reqrep](./nats-reqrep)
+Implementation of the Request-Reply pattern using NATS JetStream.
+
+**Features:**
+- Server that processes requests and sends responses
+- Client that sends requests and waits for responses
+- JetStream persistence for reliability
+- Proper timeout handling
+- Docker support
+- Clean project structure
+
+## Getting Started
+
+Each project contains its own README with detailed instructions, but generally:
+
+1. Make sure you have the prerequisites:
+   - Go 1.21+
+   - Docker
+   - Make
+
+2. Choose a pattern and navigate to its directory:
+   ```bash
+   cd nats-pubsub   # or nats-reqrep
+   ```
+
+3. Follow the project-specific README for detailed instructions.
+
+## Common Features Across Projects
+
+- JetStream for message persistence
+- Docker support for NATS server
+- Comprehensive Makefiles
+- Environment-based configuration
+- Graceful shutdown handling
+- Clean code organization
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
